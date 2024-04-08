@@ -1,20 +1,29 @@
-# Divisible
-Bu basit bir Java programıdır. İki sayının birbirine bölünüp bölünmediğini kontrol eder.
+# Bölünebilirlik Kontrolü
+Bu Java programı, bir sayının diğer bir sayıya bölünebilir olup olmadığını kontrol eder.
 
 ## Kullanım
-Program iki tamsayıyı alır ve birbirine bölünüp bölünmediğini kontrol eder. Sonuca göre ekrana uygun bir mesaj yazdırır.
+`Divisible.java` dosyasını derleyin:
 
-## Kurulum
-Java'nın kurulu olması gerekmektedir.
-
-## Kullanım
-Programı çalıştırmak için aşağıdaki adımları izleyin:
-
-1. Terminali açın ve programın bulunduğu dizine gidin.
-2. Kodu derlemek için `javac Divisible.java` komutunu çalıştırın.
-3. Programı çalıştırmak için `java Divisible` komutunu çalıştırın.
-
-## Örnek
+```bash
+javac Divisible.java
 ```
+
+Programı çalıştırın:
+
+```bash
 java Divisible
 ```
+
+Program, birinci sayının ikinci sayıya bölünebilir olup olmadığını çıktı olarak verecektir.
+
+## Örnek
+Örneğin, eğer `sayi1` 9 ve `sayi2` 18 ise, program şu çıktıyı verecektir:
+
+```
+Bölünemez sayıdır.
+```
+
+## Method
+`divisible` metodu, iki tane tam sayı parametresi alır (`number1` ve `number2`) ve `number1`'in `number2`'ye bölünebilir olup olmadığını belirten bir boolean değer döndürür.
+```
+Bu şekilde, README dosyanız daha anlaşılır ve düzenli olacaktır.
